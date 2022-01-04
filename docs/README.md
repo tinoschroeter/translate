@@ -1,6 +1,6 @@
 # Translate
 
-![](https://img.shields.io/github/last-commit/tinoschroeter/translate.svg?style=flat)
+![last-commit](https://img.shields.io/github/last-commit/tinoschroeter/translate.svg?style=flat)
 [![GitHub Super-Linter](https://github.com/tinoschroeter/translate/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/tinoschroeter/translate/actions/workflows/linter.yml)
 
 > install globally
@@ -9,7 +9,7 @@
 npm i -g
 ```
 
-[get api key on https://www.deepl.com](https://www.deepl.com/de/translator)
+[get API Key on https://www.deepl.com](https://www.deepl.com/de/translator)
 
 ```shell
 export DEEPL_KEY="123456789012345678901234:ar"
