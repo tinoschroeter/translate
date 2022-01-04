@@ -1,5 +1,4 @@
 const translate = require("translate");
-const fs = require("fs");
 const readline = require("readline");
 
 translate.engine = "deepl";
