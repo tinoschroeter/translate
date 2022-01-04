@@ -17,7 +17,7 @@ export DEEPL_KEY="123456789012345678901234:ar"
 ```
 
 ```shell
- translate --help 
+$ translate --help 
 Usage: translate [options] [command]
 
 Options:
