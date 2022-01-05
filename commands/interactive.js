@@ -1,11 +1,16 @@
 const translate = require("translate");
 const readline = require("readline");
+const { langError } = require("./error.js");
 
 translate.engine = "deepl";
 translate.key = process.env.DEEPL_KEY;
 
-const interactive = () => {
-  const options = { from: "de", to: "en" };
+let lang
+
+const interactive = (setLang) => {
+  if (!setLang) lang = { from: "de", to: "en" };
+  if (setLang && setLang.length < 2) return langError();
+  if (setLang) lang = { from: setLang[0], to: setLang[1] };
 
   const translation = readline.createInterface({
     input: process.stdin,
@@ -13,7 +18,7 @@ const interactive = () => {
   });
 
   translation.question("", (data) => {
-    translate(data, options).then((result) => {
+    translate(data, lang).then((result) => {
       console.log(result);
       translation.close();
     });

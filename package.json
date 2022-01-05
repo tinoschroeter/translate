@@ -1,6 +1,6 @@
 {
   "name": "translate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -17,13 +17,14 @@
     "translate": "index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tino Schroeter",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tinoschroeter/translate/issues"
   },
   "homepage": "https://github.com/tinoschroeter/translate#readme",
   "dependencies": {
+    "chalk": "^2.4.2",
     "commander": "^8.3.0",
     "translate": "^1.4.1"
   }
