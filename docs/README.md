@@ -6,10 +6,11 @@
 > install globally
 
 ```javaScript
+git clone https://github.com/tinoschroeter/translate.git
 npm i -g
 ```
 
-[Get API Key on https://www.deepl.com](https://www.deepl.com/de/translator)
+You need an API Key from [www.deepl.com](https://www.deepl.com/de/translator)
 
 ```shell
 export DEEPL_KEY="123456789012345678901234:ar"
@@ -20,12 +21,12 @@ export DEEPL_KEY="123456789012345678901234:ar"
 $ translate --help 
 Usage: index [options]
 
-Simply translate in CLI
+Translate in the cli
 export DEEPL_KEY='23456789012345678901234:ar'
 lang default de -> en
 
 Options:
-  -l, --lang <value...>  set language -l from to | -l en de
+  -l, --lang <value...>  set language -l from to | -l de en
   -f --file <value>      translate a file
   -i --interactive       translate in interactive mode
   -v, --vers             output the current version
