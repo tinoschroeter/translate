@@ -13,7 +13,7 @@ npm i -g
 You need an API Key from [www.deepl.com](https://www.deepl.com/de/translator)
 
 ```shell
-export DEEPL_KEY="123456789012345678901234:ar"
+export DEEPL_KEY="<API Key>"
 ~/.zshrc
 ```
 
@@ -22,7 +22,7 @@ $ translate --help
 Usage: index [options]
 
 Translate in the cli
-export DEEPL_KEY='23456789012345678901234:ar'
+export DEEPL_KEY='<API Key>'
 lang default de -> en
 
 Options:
