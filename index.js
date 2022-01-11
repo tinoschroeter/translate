@@ -23,7 +23,7 @@ program
 program
   .version('1.1.0', '-v, --vers', 'output the current version')
   .description(
-    "Translate in the cli\nexport DEEPL_KEY='23456789012345678901234:ar'\nlang default de -> en"
+    "Translate in the cli\nexport DEEPL_KEY='<API Key>'\nlang default de -> en"
   )
 
 program.parse()
