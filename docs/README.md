@@ -3,6 +3,8 @@
 ![last-commit](https://img.shields.io/github/last-commit/tinoschroeter/translate.svg?style=flat)
 [![GitHub Super-Linter](https://github.com/tinoschroeter/translate/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/tinoschroeter/translate/actions/workflows/linter.yml)
 
+Tranlate direct in your Terminal.
+
 > install globally
 
 ```javaScript
