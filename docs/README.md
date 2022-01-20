@@ -9,7 +9,7 @@ Tranlate direct in your Terminal.
 
 ```javaScript
 git clone https://github.com/tinoschroeter/translate.git
-npm i -g
+npm i && npm i -g
 ```
 
 You need an API Key from [www.deepl.com](https://www.deepl.com/de/translator)
