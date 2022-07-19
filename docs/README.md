@@ -12,6 +12,12 @@ git clone https://github.com/tinoschroeter/translate.git
 npm i && npm i -g
 ```
 
+or, build an executable with [pkg](https://github.com/vercel/pkg)
+
+```javaScript
+npm i && npm run build
+```
+
 You need an API Key from [www.deepl.com](https://www.deepl.com/de/translator)
 
 ```shell

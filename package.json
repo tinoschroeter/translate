@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "build": "pkg index.js -o translate -C GZip && echo 'sudo mv ./translate /usr/local/bin'/"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "translate": "^1.4.1"
   },
   "devDependencies": {
+    "pkg": "^5.8.0",
     "standard": "^16.0.4"
   }
 }
